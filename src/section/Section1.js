@@ -21,12 +21,12 @@ class Section1 extends Component {
           {
             this.setState({anmclass2: "anm_appear"});
           }
-          else if(scr_pos > 650 && scr_pos <= 680) 
+          else if(scr_pos > 600 && scr_pos <= 630) 
           {
             this.setState({anmclass3: "anm_appear"});
 
           } 
-          else if(scr_pos > 680 && scr_pos <= 900) 
+          else if(scr_pos > 630 && scr_pos <= 900) 
           {          
             this.setState({anmclass1: "",
                            anmclass2: "",
