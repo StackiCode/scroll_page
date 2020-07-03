@@ -17,7 +17,7 @@ class Section1 extends Component {
         if(scr_pos <= 350) {
             this.setState({anmclass1: "anm_appear"});
           } 
-          else if( scr_pos > 350 && scr_pos <= 650) 
+          else if( scr_pos > 350 && scr_pos <= 500) 
           {
             this.setState({anmclass2: "anm_appear"});
           }
