@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/StackiCode/scroll_page/static/css/main.deb2d231.chunk.css",
+    "main.js": "/StackiCode/scroll_page/static/js/main.9f4b2b8c.chunk.js",
+    "main.js.map": "/StackiCode/scroll_page/static/js/main.9f4b2b8c.chunk.js.map",
+    "runtime-main.js": "/StackiCode/scroll_page/static/js/runtime-main.846f76c2.js",
+    "runtime-main.js.map": "/StackiCode/scroll_page/static/js/runtime-main.846f76c2.js.map",
+    "static/js/2.de1fd78f.chunk.js": "/StackiCode/scroll_page/static/js/2.de1fd78f.chunk.js",
+    "static/js/2.de1fd78f.chunk.js.map": "/StackiCode/scroll_page/static/js/2.de1fd78f.chunk.js.map",
+    "index.html": "/StackiCode/scroll_page/index.html",
+    "precache-manifest.cfbdc9081d65b966d25d352755b79090.js": "/StackiCode/scroll_page/precache-manifest.cfbdc9081d65b966d25d352755b79090.js",
+    "service-worker.js": "/StackiCode/scroll_page/service-worker.js",
+    "static/css/main.deb2d231.chunk.css.map": "/StackiCode/scroll_page/static/css/main.deb2d231.chunk.css.map",
+    "static/js/2.de1fd78f.chunk.js.LICENSE.txt": "/StackiCode/scroll_page/static/js/2.de1fd78f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.846f76c2.js",
+    "static/js/2.de1fd78f.chunk.js",
+    "static/css/main.deb2d231.chunk.css",
+    "static/js/main.9f4b2b8c.chunk.js"
+  ]
+}
