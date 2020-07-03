@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+body {
+  font-size: 62.5%;
+}
+
+.flexDisplay, .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec {
+  opacity: 0;
+}
+
+.dis {
+  position: relative;
+  padding: 3rem;
+  height: 10rem;
+  margin: 15rem 0rem 0rem 5rem;
+}
+.dis_1 {
+  background: no-repeat center/cover url("https://marvelvietnam.com/wp-content/uploads/2020/04/venom-nhan-vat.jpg");
+}
+.dis_2 {
+  background: no-repeat center/cover url("https://www.23h.online/wp-content/uploads/2017/06/maxresdefault-1-1.jpg");
+}
+.dis_3 {
+  background: no-repeat center/cover url("https://image.thanhnien.vn/800/uploaded/tuyenth/2019_05_13/1_omne.jpg");
+}
+
+div[class="dis dis_1"] {
+  margin-top: 2rem !important;
+}
+
+.header {
+  position: absolute;
+  align-items: start !important;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  top: -1rem;
+  left: -5rem;
+  width: 20rem;
+  height: 18rem;
+}
+.header_1 {
+  background: #fd7e14;
+  clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+.header_2 {
+  background: #e83e8c;
+  clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+.header_3 {
+  background: #dc3545;
+  clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+
+.anm_appear {
+  animation: appear 2s normal forwards;
+  transition: transform 2s ease-in-out;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.anm_disappear {
+  animation: disappear 2s normal forwards;
+  transition: transform 2s ease-in-out;
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+}
+
+/*# sourceMappingURL=App.css.map */
