@@ -2,7 +2,7 @@
   "name": "scroll-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stackicode.github.io/scroll_page/s",
+  "homepage": "https://stackicode.github.io/scroll_page",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
